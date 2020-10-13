@@ -1,0 +1,98 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.currency-option {
+  margin-bottom: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.container-centered {
+  padding: 3vh;
+}
+
+body {
+  background-color: #fff;
+}
+
+.nav-tabs .nav-link {
+  border-bottom: none !important;
+}
+
+.nav-item {
+
+  .active {
+    background-color: #d94b5f !important;
+    color: white !important;
+  }
+
+  a {
+    color: black;
+  }
+}
+
+.nav-link:hover {
+  background-color: #e93b53 !important;
+  color: white !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.custom-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+
+  border-bottom: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.table-pink {
+  color: white;
+}
+
+.table th, .table td {
+  border-top: none !important;
+}
+
+.table thead th {
+  border-bottom: none !important;
+}
+
+.messages {
+  position: absolute;
+  top: 7vh;
+  right: 1vw;
+  z-index: 3;
+}
+
+.alert-margin{
+  margin-bottom: 0.5rem;
+}
